@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend-asociacion-comunal/node_modules
+frontend-asociacion-comunal/.pnp
+frontend-asociacion-comunal.pnp.*
+frontend-asociacion-comunal.yarn/*
+frontend-asociacion-comunal!.yarn/patches
+frontend-asociacion-comunal!.yarn/plugins
+frontend-asociacion-comunal!.yarn/releases
+frontend-asociacion-comunal!.yarn/versions
+
+# testing
+frontend-asociacion-comunal/coverage
+
+# next.js
+frontend-asociacion-comunal/.next/
+frontend-asociacion-comunal/out/
+
+# production
+frontend-asociacion-comunal/build
+
+# misc
+frontend-asociacion-comunal/.DS_Store
+frontend-asociacion-comunal/*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+frontend-asociacion-comunal/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+frontend-asociacion-comunal/.env*
+
+# vercel
+frontend-asociacion-comunal/.vercel
+
+# typescript
+*.tsbuildinfo
+frontend-asociacion-comunal/next-env.d.ts

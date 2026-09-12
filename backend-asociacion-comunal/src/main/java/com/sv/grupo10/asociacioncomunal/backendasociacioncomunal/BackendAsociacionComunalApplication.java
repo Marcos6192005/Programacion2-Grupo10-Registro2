@@ -1,0 +1,15 @@
+package com.sv.grupo10.asociacioncomunal.backendasociacioncomunal;
+
+import jakarta.annotation.sql.DataSourceDefinition;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration;
+
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+public class BackendAsociacionComunalApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(BackendAsociacionComunalApplication.class, args);
+    }
+
+}

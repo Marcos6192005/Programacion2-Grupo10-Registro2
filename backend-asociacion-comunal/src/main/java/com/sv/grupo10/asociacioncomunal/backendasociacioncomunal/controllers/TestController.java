@@ -1,4 +1,4 @@
-package com.sv.grupo10.asociacioncomunal.backendasociacioncomunal;
+package com.sv.grupo10.asociacioncomunal.backendasociacioncomunal.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
